@@ -81,7 +81,8 @@ public class DotComBust {
             System.out.println("Fish are dancing with your options.");
         }
     }
-
+    
+    @deepalgo
     public static void main(String[] args) {
         DotComBust game = new DotComBust();
         game.setUpGame();
