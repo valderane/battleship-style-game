@@ -45,8 +45,10 @@ public class DotComBust {
                 correctUserGuesses.add(userGuess);
             }
             else {
+                //@deepalgo
                 wrongUserGuesses.add(userGuess);
             }
+            //@deepalgo
             checkUserGuess(userGuess);
         }
         //@deepalgo
