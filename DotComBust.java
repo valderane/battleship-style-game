@@ -49,6 +49,7 @@ public class DotComBust {
             }
             checkUserGuess(userGuess);
         }
+        //@deepalgo
         finishGame();
     }
 
@@ -82,7 +83,6 @@ public class DotComBust {
         }
     }
     
-    @deepalgo
     public static void main(String[] args) {
         DotComBust game = new DotComBust();
         game.setUpGame();
