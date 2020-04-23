@@ -41,6 +41,9 @@ public class GameHelper {
     }
 
     public String getUserInput(String prompt) {
+        /*
+        * @deepalgo
+        */
         String inputLine = null;
         System.out.print(prompt + " ");
         try {
@@ -55,6 +58,9 @@ public class GameHelper {
     }
 
     public ArrayList<String> placeDotCom(int comSize) {
+        /*
+        * @deepalgo
+        */
         ArrayList<String> alphaCells = new ArrayList<String>();
         String[] alphacoords = new String[comSize];
         String temp = null;
